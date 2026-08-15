@@ -1,0 +1,21 @@
+{
+  "pluginList": [
+    "Mara-Li/obsidian-snippet-downloader"
+  ],
+  "pluginSubListFrozenVersion": [
+    {
+      "repo": "Mara-Li/obsidian-snippet-downloader",
+      "version": "latest"
+    }
+  ],
+  "themesList": [],
+  "updateAtStartup": true,
+  "updateThemesAtStartup": false,
+  "enableAfterInstall": true,
+  "loggingEnabled": false,
+  "loggingPath": "BRAT-log",
+  "loggingVerboseEnabled": false,
+  "debuggingMode": false,
+  "notificationsEnabled": true,
+  "personalAccessToken": ""
+}

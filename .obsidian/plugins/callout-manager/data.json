@@ -1,0 +1,176 @@
+{
+  "callouts": {
+    "custom": [
+      "cite",
+      "brain",
+      "calendar",
+      "actionables",
+      "box",
+      "agenda",
+      "birthdays",
+      "wip",
+      "planned",
+      "ideas",
+      "activity",
+      "goal",
+      "workflow",
+      "auto",
+      "scheduled",
+      "orphan",
+      "lonely",
+      "need-work",
+      "call"
+    ],
+    "settings": {
+      "brain": [
+        {
+          "changes": {
+            "icon": "lucide-brain",
+            "color": "227, 107, 167"
+          }
+        }
+      ],
+      "calendar": [
+        {
+          "changes": {
+            "icon": "lucide-calendar-days",
+            "color": "83, 223, 221"
+          }
+        }
+      ],
+      "actionables": [
+        {
+          "changes": {
+            "icon": "lucide-dumbbell",
+            "color": "233, 151, 63"
+          }
+        }
+      ],
+      "box": [
+        {
+          "changes": {
+            "icon": "lucide-box",
+            "color": "166, 189, 197"
+          }
+        }
+      ],
+      "agenda": [
+        {
+          "changes": {
+            "icon": "lucide-calendar-clock",
+            "color": "83, 223, 221"
+          }
+        }
+      ],
+      "birthdays": [
+        {
+          "changes": {
+            "icon": "lucide-cake",
+            "color": "233, 151, 63"
+          }
+        }
+      ],
+      "wip": [
+        {
+          "changes": {
+            "icon": "lucide-flame",
+            "color": "82, 139, 212"
+          }
+        }
+      ],
+      "planned": [
+        {
+          "changes": {
+            "icon": "lucide-recycle",
+            "color": "83, 223, 221"
+          }
+        }
+      ],
+      "ideas": [
+        {
+          "changes": {
+            "icon": "lucide-lightbulb",
+            "color": "208, 181, 48"
+          }
+        }
+      ],
+      "activity": [
+        {
+          "changes": {
+            "icon": "lucide-activity",
+            "color": "227, 107, 167"
+          }
+        }
+      ],
+      "goal": [
+        {
+          "changes": {
+            "icon": "lucide-target",
+            "color": "68, 207, 110"
+          }
+        }
+      ],
+      "workflow": [
+        {
+          "changes": {
+            "icon": "lucide-clipboard-list",
+            "color": "161, 106, 73"
+          }
+        }
+      ],
+      "auto": [
+        {
+          "changes": {
+            "icon": "lucide-bot",
+            "color": "208, 181, 48"
+          }
+        }
+      ],
+      "scheduled": [
+        {
+          "changes": {
+            "icon": "lucide-calendar-clock",
+            "color": "233, 151, 63"
+          }
+        }
+      ],
+      "orphan": [
+        {
+          "changes": {
+            "icon": "lucide-link-2off",
+            "color": "251, 70, 76"
+          }
+        }
+      ],
+      "lonely": [
+        {
+          "changes": {
+            "icon": "lucide-unlink-2",
+            "color": "233, 151, 63"
+          }
+        }
+      ],
+      "need-work": [
+        {
+          "changes": {
+            "icon": "lucide-blend",
+            "color": "208, 181, 48"
+          }
+        }
+      ],
+      "call": [
+        {
+          "changes": {
+            "icon": "lucide-smartphone-nfc",
+            "color": "208, 181, 48"
+          }
+        }
+      ]
+    }
+  },
+  "calloutDetection": {
+    "obsidian": true,
+    "theme": true,
+    "snippet": true
+  }
+}
