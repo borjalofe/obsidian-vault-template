@@ -1,4 +1,10 @@
 [
+  "journals",
+  "folder-notes",
+  "templater-obsidian",
   "dataview",
-  "folder-notes"
+  "callout-manager",
+  "obsidian-list-callouts",
+  "obsidian42-brat",
+  "obsidian-snippet-downloader"
 ]

@@ -11,39 +11,45 @@ El campamento base del cerebro digital.
 > 
 > > _Lo que sabe este cerebro._
 > 
-> Para mejorarlo, puedes [[añadir]] o [[relacionar]] o [[comunicar]] conceptos.
+> Para mejorarlo, puedes [[añadir]] o [[relacionar]] conceptos, o [[comunicar|comunicarlos]]... aunque eso es más una vista sobre  [[ACCIONABLES|accionables]].
 > 
-> - [[MAPAS]] · [[RECURSOS]]
+> - [[PERSONAS]] · [[MAPAS]] · [[RECURSOS]]
 
 > [!calendar]- # Calendario
 > > [!multi-column]
 > > > [!agenda] Agenda
-> > > ![[AGENDA-WIDGET]]
+> > > ![[AGENDA#Eventos (en los próximos 7 días)]]
 > > 
 > > > [!call] A Contactar
-> > > _Vista disponible cuando existan contactos en PERSONAS._
+> > > ![[PERSONAS#Top 10 por contactar]]
+> > 
+> > > [!birthdays] Cumpleaños
+> > > ![[PERSONAS#Cumpleaños (en los próximos 30 días)]]
 
 > [!actionables]- # Accionables
 >  
-> Proyectos por estado en `ACCIONABLES`
+> Proyectos por `status` en `ACCIONABLES`
 > 
 > > [!multi-column]
-> > > [!ideas]
-> > > ![[ACCIONABLES#💡 Ideas]]
+> > > [!wip]
+> > > 
+> > >![[ACCIONABLES#On]]
 > > 
 > > > [!planned]
-> > > ![[ACCIONABLES#♻️ Planeados]]
+> > > 
+> > > ![[ACCIONABLES#Ongoing]]
 > > 
-> > > [!wip]
-> > > ![[ACCIONABLES#🔥 En curso]]
+> > > [!ideas]
+> > > 
+> > > ![[ACCIONABLES#Sleeping]]
 
 ## Mapa rápido
 
 | Zona                 | Ruta                                     |
 | -------------------- | ---------------------------------------- |
-| Identidad            | [[IDENTIDAD]]                            |
+| Identidad y marca    | [[BRAND]] · [[CV]] · [[Perfil LinkedIn]] |
+| Personas             | [[PERSONAS]]                             |
 | Accionables          | [[ACCIONABLES]]                          |
 | Agenda               | [[AGENDA]]                               |
-| Conocimientos        | [[CONOCIMIENTOS]]                        |
 | Registro (diario)    | `01-CEREBRO/PASADO/REGISTRO/`            |
 | Entrada sin procesar | `00-ENTRADA/sin-procesar/`               |

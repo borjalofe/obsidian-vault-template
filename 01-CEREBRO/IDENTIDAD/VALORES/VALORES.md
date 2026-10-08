@@ -1,29 +1,22 @@
 ---
 aliases: []
-created: 2026-07-13
-cssclasses: []
+created: 2026-06-09
 draft: false
-in:
-  - "[[MAPAS]]"
-related: []
 tags:
-  - map
-  - identidad
-  - valores
-title: Valores
+- identidad
+- map
+- valores
+title: VALORES
 type: Map
-up:
-  - "[[IDENTIDAD]]"
-updated: 2026-07-13
+updated: 2026-06-09
 ---
 
-# Valores
+# VALORES
 
 ```dataview
 TABLE WITHOUT ID
-  link(file.path, title) AS Valor
+  link(file.path, title) AS Afirmación
 FROM "01-CEREBRO/IDENTIDAD/VALORES"
 WHERE file.name != "VALORES"
-  AND -#meta
 SORT title ASC
 ```

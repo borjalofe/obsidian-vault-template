@@ -1,24 +1,21 @@
 ---
 aliases: []
-created: 2026-07-13
-cssclasses: []
+created: 2026-06-25
 draft: false
 in:
-  - "[[MAPAS]]"
-related: []
+  - "[[Views]]"
 tags:
   - map
   - meta
-  - accionables
 title: Accionables
 type: Map
 up:
   - "[[Inicio]]"
-updated: 2026-07-13
+updated: 2026-10-05
 ---
 # Accionables
 
-## 💡 Ideas
+## On
 
 ```dataview
 TABLE WITHOUT ID
@@ -27,11 +24,11 @@ TABLE WITHOUT ID
 FROM "01-CEREBRO/ACCIONABLES"
   AND -#meta
 WHERE type = "Project"
-  AND status = "idea"
+  AND status = "on"
 SORT rank ASC, file.name ASC
 ```
 
-## ♻️ Planeados
+## Ongoing
 
 ```dataview
 TABLE WITHOUT ID
@@ -40,11 +37,11 @@ TABLE WITHOUT ID
 FROM "01-CEREBRO/ACCIONABLES"
   AND -#meta
 WHERE type = "Project"
-  AND status = "planned"
+  AND status = "ongoing"
 SORT rank ASC, file.name ASC
 ```
 
-## 🔥 En curso
+## Sleeping
 
 ```dataview
 TABLE WITHOUT ID
@@ -53,6 +50,20 @@ TABLE WITHOUT ID
 FROM "01-CEREBRO/ACCIONABLES"
   AND -#meta
 WHERE type = "Project"
-  AND status = "in-progress"
+  AND status = "sleeping"
 SORT rank ASC, file.name ASC
+```
+
+## Cancelled / Finished
+
+```dataview
+TABLE WITHOUT ID
+  file.link AS Proyecto,
+  rank AS Rank,
+  status AS Status
+FROM "01-CEREBRO/ACCIONABLES" OR "01-CEREBRO/PASADO/ACCIONABLES"
+  AND -#meta
+WHERE type = "Project"
+  AND (status = "cancelled" OR status = "finished")
+SORT status ASC, rank ASC, file.name ASC
 ```

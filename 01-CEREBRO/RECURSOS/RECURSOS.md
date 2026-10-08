@@ -1,34 +1,49 @@
 ---
 aliases: []
-created: 2026-07-13
-cssclasses: []
+created: 2026-06-18
 draft: false
 in:
-  - "[[MAPAS]]"
-related: []
+  - "[[Views]]"
 tags:
   - map
   - meta
-  - recursos
 title: Recursos
 type: Map
-up:
-  - "[[Inicio]]"
-updated: 2026-07-13
+updated: 2026-06-18
 ---
 
 # Recursos
 
 Colecciones pasivas de `RECURSOS/` vía `in`.
 
+## Libros
+
+```dataview
+TABLE WITHOUT ID
+  file.link AS Libro,
+  author AS Autor
+FROM "01-CEREBRO/RECURSOS" AND -#meta
+WHERE in AND contains(in, link("Books"))
+SORT file.name ASC
+```
+
+## Cursos
+
+```dataview
+TABLE WITHOUT ID
+  file.link AS Curso
+FROM "01-CEREBRO/RECURSOS" AND -#meta
+WHERE in AND contains(in, link("Courses"))
+SORT file.name ASC
+```
+
 ## Todos
 
 ```dataview
 TABLE WITHOUT ID
-  link(file.path, title) AS Fuente,
+  file.link AS Fuente,
   type AS Tipo
-FROM "01-CEREBRO/RECURSOS"
-WHERE file.name != "RECURSOS"
-  AND -#meta
-SORT title ASC
+FROM "01-CEREBRO/RECURSOS" AND -#meta
+WHERE in AND contains(in, link("Sources"))
+SORT file.name ASC
 ```

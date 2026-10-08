@@ -1,29 +1,22 @@
 ---
 aliases: []
-created: 2026-07-13
-cssclasses: []
+created: 2026-06-30
 draft: false
-in:
-  - "[[MAPAS]]"
-related: []
 tags:
-  - map
-  - identidad
   - afirmaciones
-title: Afirmaciones
+  - identidad
+  - mapa-de-contenidos
+title: AFIRMACIONES
 type: Map
-up:
-  - "[[IDENTIDAD]]"
-updated: 2026-07-13
+updated: 2026-07-04
 ---
 
-# Afirmaciones
+# AFIRMACIONES
 
 ```dataview
 TABLE WITHOUT ID
   link(file.path, title) AS Afirmación
 FROM "01-CEREBRO/IDENTIDAD/AFIRMACIONES"
 WHERE file.name != "AFIRMACIONES"
-  AND -#meta
 SORT title ASC
 ```

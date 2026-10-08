@@ -1,26 +1,25 @@
 ---
 aliases: []
-created: 2026-07-13
-cssclasses: []
+created: 2026-06-25
 draft: false
 in:
-  - "[[MAPAS]]"
-related: []
+  - "[[Views]]"
 tags:
   - map
   - meta
-  - agenda
 title: Agenda
 type: Map
 up:
   - "[[Inicio]]"
-updated: 2026-07-13
+updated: 2026-06-25
 ---
 # Agenda
 
 Hub de tiempo activo (`AGENDA`).
 
-## Eventos (hoy y próximos 6 días)
+Las secciones siguientes pueden embeberse como "widgets".
+
+## Eventos (en los próximos 7 días)
 
 ```dataview
 TABLE WITHOUT ID

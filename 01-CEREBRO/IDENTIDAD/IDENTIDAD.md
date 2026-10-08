@@ -1,11 +1,8 @@
 ---
-aliases: []
-created: 2026-07-13
-cssclasses: []
+aliases:
+  - Identidad
+created: 2026-10-08
 draft: false
-in:
-  - "[[MAPAS]]"
-related: []
 tags:
   - map
   - meta
@@ -14,15 +11,14 @@ title: Identidad
 type: Map
 up:
   - "[[Inicio]]"
-updated: 2026-07-13
+updated: 2026-10-08
 ---
+
 # Identidad
 
-```dataview
-TABLE WITHOUT ID
-  link(file.path, title) AS Nota
-FROM "01-CEREBRO/IDENTIDAD"
-WHERE file.name != "IDENTIDAD"
-  AND -#meta
-SORT title ASC
-```
+Mapa de las carpetas de identidad. Cada enlace apunta a la nota homónima de la subcarpeta.
+
+- [[AFIRMACIONES]]
+- [[DECISIONES]]
+- [[OBJETIVOS]]
+- [[VALORES]]

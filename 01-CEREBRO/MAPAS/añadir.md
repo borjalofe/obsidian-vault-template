@@ -3,7 +3,7 @@ aliases:
   - Añadir
 cssclasses:
   - wide-page
-created: 2026-07-13
+created: 2026-06-25
 draft: false
 in:
   - "[[Views]]"
@@ -11,46 +11,46 @@ related:
   - "[[relacionar]]"
   - "[[comunicar]]"
 tags:
-  - view
+  - map
 title: Añadir
-type: View
+type: Map
 up:
   - "[[Inicio]]"
-updated: 2026-07-13
+updated: 2026-06-29
 ---
 # Añadir
 
 > [!info] Éste es el sitio donde poner todas las notas que captures.
-> 
+>
 > ¿Quieres capturar un pensamiento fugaz? ¿Una fuente que te ha llamado la atención? ¿Una conversación en alguna red social?
-> 
+>
 > ¿Y no quieres romper tu foco ahora mismo organizándola?
-> 
+>
 > ¡Ponlo en `00-ENTRADA/sin-procesar`!
 
 > [!warning] Esto no solo es una bandeja de entrada: es una zona para reposar ideas
-> 
+>
 > Muchas cosas entran "en caliente" o porque nos "han entrado por los ojos".
-> 
+>
 > Dales unos días para que se enfríen un poco y puedas ver si son notas que vale la pena integrar.
-> 
+>
 > Si algo sigue teniendo sentido cuando se ha enfríado, entonces es hora de revisar y priorizar.
-> 
+>
 > Si no, toca eliminarlo.
 
 > [!activity]+ # Añadidos
 > Esta es una vista de las 10 últimas notas añadidas en `00-ENTRADA`.
-> 
+>
 > > [!goal] Objetivo: vaciar la lista
-> 
+>
 > > [!important] Ninguna nota debería mantenerse aquí más de 7 días.
-> 
+>
 > > [!workflow] Trabajar en estas notas
-> > 
+> >
 > > 1. Añade, revisa o modifica contenido
 > > 2. Decide dónde va la nota y muévela
 > > 3. Elimina la nota si tiene más de 14 días
-> 
+>
 > ```dataview
 > TABLE WITHOUT ID
 >   file.link AS "Nota",
@@ -60,3 +60,9 @@ updated: 2026-07-13
 > SORT file.cday DESC, file.mday DESC
 > LIMIT 10
 > ```
+
+> [!note] Borradores
+>
+> 1. Las notas en captura suelen llevar `draft: true` hasta aceptarlas.
+> 2. Cuando pases `draft: false` y curses la nota, muévela a la carpeta adecuada del cerebro.
+

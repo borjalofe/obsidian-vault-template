@@ -1,11 +1,9 @@
 ---
 aliases: []
-created: 2026-07-13
-cssclasses: []
+created: 2026-06-18
 draft: false
 in:
   - "[[MAPAS]]"
-related: []
 tags:
   - map
   - meta
@@ -13,7 +11,7 @@ title: Mapas
 type: Map
 up:
   - "[[Inicio]]"
-updated: 2026-07-13
+updated: 2026-09-16
 ---
 # Mapas
 
@@ -21,7 +19,6 @@ updated: 2026-07-13
 
 ```dataview
 TABLE WITHOUT ID file.link AS Mapa
-FROM "01-CEREBRO/MAPAS"
-WHERE contains(in, link("MAPAS")) AND !contains(file.name, "Template")
+WHERE contains(in, link("MAPAS")) AND !contains(file.name, "Template") AND -#meta
 SORT file.name ASC
 ```
