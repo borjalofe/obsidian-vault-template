@@ -47,9 +47,9 @@ Alumnos / lectores de formación PKM, y cualquiera que quiera la estructura base
 
 ## Decisiones técnicas
 
-**¿Por qué ENTRADA/CEREBRO/RECURSOS y no PARA o LYT "puro"?**
+**¿Por qué ENTRADA / CEREBRO / RECURSOS?**
 
-PARA clasifica proyectos/áreas/recursos/archivos; LYT empuja mapas. Aquí la captura (`00`) queda explícita y el "cerebro" agrupa lo que ya tiene significado (mapas, agenda, accionables). Es una mezcla deliberada, no una copia de un framework.
+La captura (`00`) queda explícita; el "cerebro" agrupa lo que ya tiene significado (mapas, agenda, accionables); lo ajeno va a recursos. Es una mezcla deliberada, no una copia de un framework ajeno.
 
 **¿Por qué Dataview + Folder Notes?**
 

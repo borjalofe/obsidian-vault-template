@@ -74,7 +74,7 @@ Proceso de eliminar identificadores para impedir la identificación de personas 
 
 ## Evidencia de calidad
 
-- Hub/MOC local y queries `-#meta`.
+- Hub local y queries `-#meta`.
 
 ## Campos (contrato)
 

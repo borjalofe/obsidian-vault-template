@@ -64,7 +64,7 @@ Definición en tus palabras de una idea que no inventaste tú.
 
 | Elegí | Descarté | Por qué |
 |-------|----------|---------|
-| Contenedor sin notas "hub" obligatorias en raíz | Forzar un MOC único aquí | Cada hija tiene su mapa/Folder Note |
+| Contenedor sin notas "hub" obligatorias en raíz | Forzar un mapa único aquí | Cada hija tiene su mapa/Folder Note |
 | Saber vs ser (CONOCIMIENTOS vs IDENTIDAD) | Todo "notas personales" juntas | Una definición de marca genérica no es tu marca |
 
 ## Trade-offs y limitaciones

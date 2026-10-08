@@ -8,7 +8,7 @@ tags:
   - map
   - meta
 title: ENTIDADES
-type: Map of Contents
+type: Map
 updated: 2026-06-25
 status: done
 ---

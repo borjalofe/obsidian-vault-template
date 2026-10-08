@@ -7,7 +7,7 @@ tags:
   - conocimientos
   - map
 title: CONCEPTOS
-type: Map of Contents
+type: Map
 updated: 2026-07-04
 status: done
 ---

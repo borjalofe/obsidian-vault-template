@@ -29,7 +29,7 @@ Si una empresa, una comunidad y un contacto viven en el mismo cajón, los mapas 
 
 ```
 ENTIDADES/
-├── ENTIDADES.md     # MOC / Dataview
+├── ENTIDADES.md     # hub / Dataview
 └── <Nombre>.md      # ficha
 ```
 

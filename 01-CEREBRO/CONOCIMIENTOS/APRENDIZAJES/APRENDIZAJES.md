@@ -7,7 +7,7 @@ tags:
   - conocimientos
   - map
 title: APRENDIZAJES
-type: Map of Contents
+type: Map
 updated: 2026-10-08
 status: done
 ---
