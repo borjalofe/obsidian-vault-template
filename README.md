@@ -69,4 +69,4 @@ Checklist de humo (sin Node):
 
 ## Lecciones aprendidas
 
-Separar base y pro evita que quien solo quiere carpetas arrastre `package.json`. El precio: dos repos que hay que mantener alineados en semántica de carpetas (la pro regenera esta base vía sync).
+Separar base y pro evita que quien solo quiere carpetas arrastre `package.json`. El precio: dos repos que hay que mantener alineados en semántica de carpetas.
